@@ -151,6 +151,7 @@ export const CoffeeStore = (initialProps) => {
     <div className={styles.layout}>
       <Head>
         <title>{name}</title>
+        <meta name='description' content={`${name} store`} />
       </Head>
 
       <div className={styles.container}>
